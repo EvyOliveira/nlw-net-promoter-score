@@ -6,6 +6,9 @@
   "repository": "git@github.com:EvyOliveira/nlw-net-promoter-score.git",
   "author": "Evelyn Cristini Oliveira",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
